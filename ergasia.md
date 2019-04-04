@@ -83,6 +83,7 @@ SynthDef.new(\EpiTime, {
 		x.isPlaying,
 		{x.set(\amp, vol)}
 	);
+Το κέρδος των 6db είναι αποτέλεσμα του πολλαπλασιασμού του σήματος με το 2 `sig*2)`.
 ````
 
 ##### Balance
