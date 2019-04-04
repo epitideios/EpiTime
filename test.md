@@ -177,7 +177,7 @@ a = RangeSlider(w, Rect(50, 60, 300, 20))
     .lo_(0)
     .hi_(1)
     .action_({ |slider|
-        ~slider_start1.valueAction_(slider.lo); // this will trigger the action of slider_start & slider_end (and set it's value)
+        ~slider_start1.valueAction_(slider.lo);
         ~slider_end1.valueAction_(slider.hi);
     });
 ~slider_start1 = Slider(q, Rect(50,50,300,15))
